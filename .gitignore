@@ -1,0 +1,39 @@
+# Entornos y secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+accesos.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+build/
+npm-debug.log*
+pnpm-debug.log*
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Artefactos locales
+*.log
+tmp/
+salida/
+_respaldo_*/
